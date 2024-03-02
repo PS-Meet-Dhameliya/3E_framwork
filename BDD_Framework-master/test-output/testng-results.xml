@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T21:59:11 IST" name="Parallel Test Suite" finished-at="2024-03-02T22:06:13 IST" duration-ms="421966">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-02T21:59:11 IST" name="ParallelTest" finished-at="2024-03-02T22:06:13 IST" duration-ms="421966">
+      <class name="testRunner.TestngTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T21:59:11 IST" name="setUpClass" finished-at="2024-03-02T21:59:12 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@342c38f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T21:59:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T21:59:40 IST" duration-ms="28042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User login with invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T21:59:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T21:59:58 IST" duration-ms="17603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login into portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T21:59:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:00:49 IST" duration-ms="51575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering valid From date and To date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:00:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:01:11 IST" duration-ms="21218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering valid From date and To date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:01:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:01:36 IST" duration-ms="25730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering valid From date and To date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:01:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:02:40 IST" duration-ms="63401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering invalid From date and To date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:02:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:02:59 IST" duration-ms="19537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering invalid From date and To date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:02:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:03:15 IST" duration-ms="15466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering invalid From date and To date"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:03:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:03:54 IST" duration-ms="39219" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Show Leave with Status is not Selected"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave Page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div[2]/span[4]/i"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13593cd8a8c1b23dfb4a35a8d67976cc, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div[2]/span[4]/i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\MEET~1.DHA\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62864/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13593cd8a8c1b23dfb4a35a8d67976cc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div[2]/span[4]/i"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13593cd8a8c1b23dfb4a35a8d67976cc, findElement {using=xpath, value=//*[@id="app"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div[2]/span[4]/i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\MEET~1.DHA\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62864}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62864/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13593cd8a8c1b23dfb4a35a8d67976cc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at utilities.SeleniumMethods.clickOn(SeleniumMethods.java:40)
+at pageObjects.LeavePageObjects.remove_tag(LeavePageObjects.java:86)
+at stepDefinitions.LeavePageSteps.i_not_select_any_leave_status(LeavePageSteps.java:97)
+at ✽.I not select any leave status(file:///C:/Users/meet.dhameliya/Downloads/BDD_Framework-master/BDD_Framework-master/./features/2LeavePage.feature:44)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:03:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:05:20 IST" duration-ms="85908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search leave list records"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave List"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:05:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-02T22:06:13 IST" duration-ms="52691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search leave list records with out enter name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leave List"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestngTestRunner@117e949d]" started-at="2024-03-02T22:06:13 IST" name="tearDownClass" finished-at="2024-03-02T22:06:13 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestngTestRunner -->
+    </test> <!-- ParallelTest -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
